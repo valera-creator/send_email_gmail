@@ -7,11 +7,11 @@ from email.mime.multipart import MIMEMultipart
 
 def send_email():
     # Заполните эти поля вашими данными
-    sender_email = "почта, с которой отправляют"  # gmail почта, к которой привязан пароль приложения
+    sender_email = "почта, к которой привязан пароль приложения"  # gmail почта, к которой привязан пароль приложения
     receiver_email = "почта, кому отправить"  # кому
     password = "пароль приложения"  # пароль приложения (в gmail получил в разделе безопасность - пароль приложений)
     subject = "Subject of the email"
-    body = 'text message'  # текст сообщения
+    body = 'text message!!!'  # текст сообщения
 
     # Создание объекта сообщения
     message = MIMEMultipart()
