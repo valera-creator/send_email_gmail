@@ -23,7 +23,7 @@ def send_email():
     message.attach(MIMEText(body, 'plain'))
 
     # Создание объекта сессии SMTP
-    session = smtplib.SMTP('smtp.gmail.com', 587)  # Укажите здесь свой SMTP сервер
+    session = smtplib.SMTP('smtp.gmail.com', 587)
     session.starttls()  # Активация шифрования
     session.login(sender_email, password)  # Авторизация на сервере
 
